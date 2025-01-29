@@ -1,0 +1,87 @@
+ body {
+    background-color: rgb(231, 192, 192);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #291919;
+}
+
+
+.signup-form {
+    background-color:#6F42C1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 8px 8px rgba(241, 234, 234, 0.1);
+}
+
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #070505;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.input-field:focus {
+    border-color: #0f130f;
+    box-shadow: 0 0 5px rgba(3, 10, 3, 0.5);
+}
+
+/* 
+.submit-btn {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #104b12;
+    color: rgb(20, 5, 5);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #174219;
+}
+
+
+.submit-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.8);
+}  */
+
+
+.submit-btn {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: white; /* White Color */
+    color: #6F42C1; /* Purple Text */
+    border: 2px solid #6F42C1; /* Purple Border */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #f0f0f0; /* Light Gray Hover */
+}
+
+.submit-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(103, 58, 183, 0.8); /* Purple Shadow */
+}
